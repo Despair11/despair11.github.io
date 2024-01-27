@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+
+<html lang="zh-Hans">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人博客 | JDK的安装与环境配置</title>
+
+    
+    <meta name="description" content="记录学习点滴">
+    <meta name="keywords" content="">
+    <meta name="author" content="Despair">
+
+    <meta name="color-scheme" content="light dark">
+
+    
+    
+<link rel="stylesheet" href="/styles/index.css">
+
+    
+    <link rel="shortcut icon" href="/imgs/logo.png">
+
+    
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.8.0/styles/base16/solarized-light.css">
+    
+
+    
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body id="delicate-app">
+    <main>
+        <div class="container">
+            <section class="page-top-badge flex-between w100">
+                <div>
+                    <a href="/">
+                        <span title="github"><i class="fa fa-home" aria-hidden="true"></i></span>
+                    </a>
+                </div>
+                <!-- <div>
+                    
+                </div> -->
+            </section>
+            <aside class="toc-container">
+    <!-- sticky toc -->
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#JDK%E7%9A%84%E5%AE%89%E8%A3%85%E8%AF%A6%E8%A7%A3%E4%B8%8E%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE"><span class="toc-number">1.</span> <span class="toc-text">JDK的安装详解与环境配置</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E5%89%8D%E8%A8%80"><span class="toc-number">1.0.1.</span> <span class="toc-text">一、前言</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8C%E3%80%81JDK%E7%9A%84%E5%AE%89%E8%A3%85"><span class="toc-number">1.0.2.</span> <span class="toc-text">二、JDK的安装</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E9%85%8D%E7%BD%AE"><span class="toc-number">1.0.3.</span> <span class="toc-text">三、环境变量配置</span></a></li></ol></li></ol></li></ol>
+</aside>
+
+<article class="markdown-container">
+    <section>
+        <h1>
+            <span>
+                JDK的安装与环境配置
+            </span>
+        
+            <div class="post-info">
+                <span></span>
+                <span>
+                    4k字 • 
+                    7分钟
+                </span>
+            </div>
+        </h1>
+    </section>
+
+    <section class="article">
+        <h2 id="JDK的安装详解与环境配置"><a href="#JDK的安装详解与环境配置" class="headerlink" title="JDK的安装详解与环境配置"></a>JDK的安装详解与环境配置</h2><h4 id="一、前言"><a href="#一、前言" class="headerlink" title="一、前言"></a>一、前言</h4><p>​	如果你是一个Java开发者，就会用到Java开发环境配置，这是开发的基础。这篇只适合刚刚入门的Java“开发者”，同时也是对自己知识的输入转输出。其实JDK的安装和环境变量配置很简单，只不过是第一次接触的人觉得很难。先简单介绍一下JDK，全称<strong>Java Development Kit</strong>，java开发工具箱。据了解目前国内java系统的jdk大部分还是1.8版本的。</p>
+<h4 id="二、JDK的安装"><a href="#二、JDK的安装" class="headerlink" title="二、JDK的安装"></a>二、JDK的安装</h4><ol>
+<li>下载jdk安装包</li>
+</ol>
+<p>​	JDK官网下载地址：</p>
+<p>​	<a target="_blank" rel="noopener" href="https://www.oracle.com/java/technologies/downloads/">https://www.oracle.com/java/technologies/downloads/</a></p>
+<p>​	或者直接用我下载好的：</p>
+<p>​	链接：<a target="_blank" rel="noopener" href="https://pan.baidu.com/s/15U-gZm3V737xpYztwKCyFg?pwd=48tt">https://pan.baidu.com/s/15U-gZm3V737xpYztwKCyFg?pwd=48tt</a> </p>
+<span id="more"></span>    
+
+<ol start="2">
+<li>在你需要安装JDK的盘符下新建一个Java文件夹，里面包含JDK和JRE两个子文件夹</li>
+</ol>
+<p><img src="C:\Users\despa\Pictures\博客插入相关图片\Snipaste_2024-01-26_13-25-19.png"></p>
+<ol start="3">
+<li>安装点击下一步，jdk安装选择JDK文件夹 JRE安装选择JRE文件夹 完成安装！</li>
+</ol>
+<h4 id="三、环境变量配置"><a href="#三、环境变量配置" class="headerlink" title="三、环境变量配置"></a>三、环境变量配置</h4><ol>
+<li><strong>右键我的电脑 →属性 →高级系统设置</strong></li>
+</ol>
+<p>​	<img src="C:\Users\despa\Pictures\博客插入相关图片\Snipaste_2024-01-26_14-03-30.png" alt="Snipaste_2024-01-26_14-03-30"></p>
+<p>​	<strong>点击环境变量</strong></p>
+<p><img src="C:\Users\despa\Pictures\博客插入相关图片\Snipaste_2024-01-26_14-06-40.png" alt="Snipaste_2024-01-26_14-06-40"></p>
+<ol start="2">
+<li><strong>在下面的系统变量 →新建</strong></li>
+</ol>
+<p>​	变量名：<strong>JAVA_HOME</strong></p>
+<p>​	变量值：<strong>填写</strong> <strong>jdk</strong> <strong>的安装⽬录（例如</strong> <strong>:C:\Program Files\Java\jdk1.8.0_311)</strong></p>
+<p><img src="C:\Users\despa\Pictures\博客插入相关图片\Snipaste_2024-01-26_14-07-11.png" alt="Snipaste_2024-01-26_14-07-11"></p>
+<p><img src="C:\Users\despa\Pictures\博客插入相关图片\Snipaste_2024-01-26_14-07-43.png" alt="Snipaste_2024-01-26_14-07-43"></p>
+<p><strong>3.系统变量寻找Path→编辑</strong></p>
+<p><img src="C:\Users\despa\Pictures\博客插入相关图片\Snipaste_2024-01-26_14-10-55.png" alt="Snipaste_2024-01-26_14-10-55"></p>
+<p><strong>新建如下两个变量分别填写：</strong> <strong>%JAVA_HOME%\bin</strong> 和 <strong>%JAVA_HOME%\jre\bin</strong></p>
+<p><img src="C:\Users\despa\Pictures\博客插入相关图片\Snipaste_2024-01-26_14-11-39.png" alt="Snipaste_2024-01-26_14-11-39"></p>
+<p><strong>4.系统变量→新建</strong></p>
+<p><strong>变量名：CLASSPATH</strong></p>
+<p><strong>变量值填写：.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar（注意最前⾯有⼀点）</strong></p>
+<p><img src="C:\Users\despa\Pictures\博客插入相关图片\Snipaste_2024-01-26_14-13-26.png" alt="Snipaste_2024-01-26_14-13-26"></p>
+<p><img src="C:\Users\despa\Pictures\博客插入相关图片\Snipaste_2024-01-26_14-13-49.png" alt="Snipaste_2024-01-26_14-13-49"></p>
+<p><strong>5.验证是否配置成功</strong></p>
+<p><strong>系统变量配置完毕，验证是否配置成功，Win+R</strong> <strong>执⾏</strong> <strong>cmd</strong> <strong>进⼊dos命令。</strong></p>
+<p><img src="C:\Users\despa\Pictures\博客插入相关图片\Snipaste_2024-01-26_14-14-24.png" alt="Snipaste_2024-01-26_14-14-24"></p>
+<p>执行<strong>Java</strong>命令出现</p>
+<p><img src="C:\Users\despa\Pictures\博客插入相关图片\Snipaste_2024-01-26_14-15-24.png" alt="Snipaste_2024-01-26_14-15-24"></p>
+<p>执行<strong>javac</strong>命令出现</p>
+<p><img src="C:\Users\despa\Pictures\博客插入相关图片\Snipaste_2024-01-26_14-15-51.png" alt="Snipaste_2024-01-26_14-15-51"></p>
+<p>执行<strong>java -version</strong>出现</p>
+<p><img src="C:\Users\despa\Pictures\博客插入相关图片\Snipaste_2024-01-26_14-16-30.png" alt="Snipaste_2024-01-26_14-16-30"></p>
+<p><strong>出现如上 即说明安装和配置大功告成！</strong></p>
+
+    </section>
+
+    
+        <section class="post-tag">
+            <a href="/tags"><i class="fa fa-tags"></i></a>
+            
+                <a href="/tags/%E5%AE%9E%E7%94%A8/" class="tag-item">
+                    实用
+                </a>
+            
+                <a href="/tags/Java/" class="tag-item">
+                    Java
+                </a>
+            
+                <a href="/tags/%E5%85%A5%E9%97%A8/" class="tag-item">
+                    入门
+                </a>
+            
+                <a href="/tags/JDK/" class="tag-item">
+                    JDK
+                </a>
+            
+        </section>
+    
+    
+        <section class="post-cate">
+            <a href="/categories"><i class="fa fa-inbox"></i></a>
+            
+                <a href="/categories/Java/" class="cate-item">
+                    Java
+                </a>
+            
+                <a href="/categories/Java/JDK%E7%9A%84%E5%AE%89%E8%A3%85/" class="cate-item">
+                    JDK的安装
+                </a>
+            
+        </section>
+    
+
+    <section class="post-cc">
+        <div class="post-cc-author">
+            <span class="bold">作者：</span><a href="mailto:jjack_chen3@163.com" title="Despair">Despair</a>
+        </div>
+        <div class="post-cc-link">
+            <span class="bold">链接：</span><a href="/2024/01/26/JDK%E7%9A%84%E5%AE%89%E8%A3%85%E8%AF%A6%E8%A7%A3%E4%B8%8E%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/">http://example.com/2024/01/26/JDK的安装详解与环境配置/</a>
+        </div>
+        <div class="post-cc-source">
+            <span class="bold">来源：</span><a href="/">个人博客</a>
+        </div>
+        <div class="ppost-cc-declare">
+            <span class="bold">版权声明: </span>本博客所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a> 许可协议。著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。 
+        </div>
+    </section>
+
+    <section class="flex-between" style="margin: 20px 0;">
+        <div class="pre">
+            
+                <a href="/2024/01/26/mysql%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/" class="change-link">
+                    <span class="icon"><i class="fa fa-angle-double-left"></i></span>
+                    <span class="text">
+                        <span class="identify">上一篇</span>
+                        <span class="text-title">mysql安装配置教程</span>
+                    </span>
+                </a>
+            
+        </div>
+        <div class="next">
+            
+                <a href="/2024/01/25/Redis/" class="change-link">
+                    <span class="text">
+                        <span class="identify" style="text-align: right;">下一篇</span>
+                        <span class="text-title" style="text-align: right;">Redis详解</span>
+                    </span>
+                    <span class="icon"><i class="fa fa-angle-double-right"></i></span>
+                </a>
+            
+        </div>
+    </section>
+
+    <!-- comment -->
+    <section class="comment-container">
+        <!-- giscus -->
+        
+    </section>
+</article>
+
+
+
+
+            <section class="article-bottom flex-between">
+                <div class="flex-center">
+                    <img src="/imgs/logo.png" class="logo">
+                    <span>长风破浪会有时，直挂云帆济沧海</span>
+                </div>
+                <div class="flex-center">
+                    <a href="mailto:jjack_chen3@163.com">
+                        <span title="envelope">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </span>
+                    </a>
+                    <a target="_blank" rel="noopener" href="https://github.com/can-dy-jack/hexo-theme-delicate">
+                        <span title="github" style="font-size: 18px;">
+                            <i class="fa fa-github" aria-hidden="true"></i>
+                        </span>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div class="to-top">
+    <a href="javascript: void(0)" onclick="delicate.toTop()">
+        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+    </a>
+</div>
+
+    <footer>
+        <div class="footer-info gray">
+    <div>
+        <span><a target="_blank" rel="noopener" href="https://github.com/can-dy-jack/hexo-theme-delicate">Delicate</a> theme designed with ❤️ by <a target="_blank" rel="noopener" href="https://github.com/can-dy-jack">can-dy-jack</a></span>
+    </div>
+    <div>
+        <span>Copyright Ⓒ 2024. All rights reserved.</span>
+    </div>
+</div>
+    </footer>
+
+    
+
+
+<script src="/js/index.js"></script>
+
+
+</body>
+
+</html>
